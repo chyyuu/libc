@@ -1,3 +1,9 @@
+## libc testbed
+
+
+## From
+https://github.com/larryhe/tinyCRT
+```
 tinyCRT
 =================================================
 This project is a summary of what i have learned a great book on linker & loader and C runtime library. I will gradually enhance it and add more functinalities in the future and make it an usable and compacted C runtime libary. 
@@ -7,3 +13,4 @@ cd src/ and run make to build the code
 
 run 
 cd src/ and run ./test
+```
