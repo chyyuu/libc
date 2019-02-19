@@ -4,8 +4,8 @@
 CC=gcc
 AR=ar
 LD=ld
-CFLAGS=-c -fno-builtin -nostdlib -fno-stack-protector 
-LDFLAGS=-static -e tiny_crt_entry
+CFLAGS=-c -m32 -g -fno-builtin -nostdlib -fno-stack-protector 
+LDFLAGS=-static -g -m elf_i386 -e tiny_crt_entry
 SOURCES=entry.c malloc.c stdio.c string.c printf.c test.c
 #special macro replace all the suffix(.c) in SOURCES with .o
 OBJECTS=$(SOURCES:.c=.o)
